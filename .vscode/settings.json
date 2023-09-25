@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "*.c": "c",
+        "*.C": "c",
+        "EJ3.C": "cpp",
+        "EJ4.C": "cpp",
+        "EJ4U303.C": "cpp",
+        "stdlib.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}
