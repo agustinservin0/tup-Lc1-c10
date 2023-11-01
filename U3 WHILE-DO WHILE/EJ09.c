@@ -40,12 +40,12 @@ if(dni!=35654123 || pass != 1234){
 printf("Credenciales incorrectas, restan %i intentos\n", 4-intentos);
     ingresaCorrectamente=0;
 } else {
-
-ingresaCorrectamente=1;
-
+ingresaCorrectamente=1;<    
 printf("Seleccione\n1- Consultar saldo\n2- Consultar CBU\n3- Salir\n");
 printf("\n");
 scanf("%i",&opcion);
+
+
 switch(opcion){
     case 1: printf("El saldo de la cuenta es %i\n", saldo);
     break;
@@ -58,8 +58,8 @@ switch(opcion){
 }  
 }
 } while (ingresaCorrectamente==0 && intentos<4);
-
-    
 system("pause");
+
 return 0;
+    
 }
