@@ -47,7 +47,7 @@ if (opcion != 5)
             {
             case 1:
                 // Cargar alumnos, validar rangos!
-                for(int i=0; i<tam, i++){
+                for(int i=0; i<tam; i++){
                     ingresar dni
                     ingresar nota
                 }
@@ -65,14 +65,14 @@ if (opcion != 5)
                *//
                 //buscar un alumno con while
                 printf("Ingrese el dni del alumuno que desea buscar\n");
-                scanf("%i", &dniAbuscar);
+                scanf("%i", &dniABuscar);
                 indice=0
-                while(dniAbuscar!=dnis[indice] && indice <tam)
+                while(dniABuscar!=dnis[indice] && indice <tam)
                 {
                     indice++;
 
                 }
-                if(dniAbuscar== dnis[indice]){
+                if(dniABuscar== dnis[indice]){
                     printf("La nota del alumno con dni %d es %.2f", dni[])
                 }
                 break;
